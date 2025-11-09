@@ -16,7 +16,7 @@ A guide on using Selenium and Beautiful Soup for web automation and data extract
 4.  [Setup and Installation](#4-setup-and-installation)
 5.  [When to Use Which Tool](#5-when-to-use-which-tool)
 6.  [Combining Selenium and Beautiful Soup](#6-combining-selenium-and-beautiful-soup)
-7.  [⚠️ Ethical Considerations](#7--ethical-considerations)
+7.  [Ethical Considerations](#7-ethical-considerations)
 8.  [Conclusion](#8-conclusion)
 
 ---
@@ -38,7 +38,7 @@ Beautiful Soup is a lightweight library designed to parse HTML and XML documents
 
 ## 2. Core Tools: Features and Strengths
 
-### ✅ Selenium: For Interaction and Dynamic Content
+### Selenium: For Interaction and Dynamic Content
 
 Selenium's primary strength is its ability to drive a real web browser, making it perfect for modern, dynamic websites.
 
@@ -56,7 +56,7 @@ Selenium is a cornerstone of QA (Quality Assurance) for web applications. Tester
 > **Test Automation Flow:**
 > `Test Script` → `Selenium WebDriver` → `Browser` → `Perform Actions` → `Validate Results`
 
-### ✅ Beautiful Soup: For Speed and Simplicity
+### Beautiful Soup: For Speed and Simplicity
 
 Beautiful Soup is the ideal tool for parsing static HTML content. If the data you need is present in the initial page source, Beautiful Soup can extract it quickly and efficiently.
 
@@ -167,13 +167,13 @@ The Selenium code example in the section above already demonstrates its use. It 
 
 Choosing the right tool is key to efficient scraping.
 
-#### ✅ Use Selenium When:
+#### Use Selenium When:
 *   The website heavily relies on **JavaScript** to load content.
 *   You need to **interact** with the page (click buttons, fill forms, scroll).
 *   Data only appears after specific user actions.
 *   You are performing end-to-end **test automation**.
 
-#### ✅ Use Beautiful Soup When:
+#### Use Beautiful Soup When:
 *   The website is **static** (all content is in the initial HTML source).
 *   **Speed** is a critical factor.
 *   Your goal is simple data extraction without browser interaction.
@@ -231,7 +231,7 @@ browser.quit()
 
 ---
 
-## 7. ⚠️ Ethical Considerations
+## 7. Ethical Considerations
 
 Web scraping exists in a legal and ethical gray area. Always scrape responsibly.
 
