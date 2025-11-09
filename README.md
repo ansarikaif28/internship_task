@@ -16,7 +16,7 @@ A guide on using Selenium and Beautiful Soup for web automation and data extract
 4.  [Setup and Installation](#4-setup-and-installation)
 5.  [When to Use Which Tool](#5-when-to-use-which-tool)
 6.  [Combining Selenium and Beautiful Soup](#6-combining-selenium-and-beautiful-soup)
-7.  [⚠️ Ethical Considerations](#7--ethical-considerations)
+7.  [Ethical Considerations](#7-ethical-considerations)
 8.  [Conclusion](#8-conclusion)
 
 ---
@@ -231,7 +231,7 @@ browser.quit()
 
 ---
 
-## 7. ⚠️ Ethical Considerations
+## 7. Ethical Considerations
 
 Web scraping exists in a legal and ethical gray area. Always scrape responsibly.
 
